@@ -1,0 +1,19 @@
+[project]
+name = "agent-cookbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.24.0",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+[tool.pytest.ini_options]
+markers = [
+    "llm: 会真正调用模型的测试，慢、吃 token，不建议在每次 commit 时都跑",
+]
