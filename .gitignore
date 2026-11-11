@@ -7,4 +7,4 @@ __pycache__/
 *.db-wal
 .idea/
 cases/case17_coding_agent/workspace/*
-!cases/case17_coding_agent/workspace/.gitkeep
+!cases/case17_coding_agent/workspace/.gitkeepcases/case0_openai_basics/generated_image.png
