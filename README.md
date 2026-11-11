@@ -21,6 +21,7 @@ uv run python cases/<case_dir>/main.py
 
 | 编号 | 目录 | 主题 |
 | --- | --- | --- |
+| 0 | [case0_openai_basics](cases/case0_openai_basics) | 直连 OpenAI 基础接口：models / chat / 流式（SDK 之下的底层排障，建议最先跑） |
 | 0 | [case0_skeleton](cases/case0_skeleton) | 最小可运行的 Agent + Runner 骨架 |
 | 1 | [case1_instructions](cases/case1_instructions) | 动态 instructions（基于上下文生成系统提示） |
 | 2 | [case2_tools_basic](cases/case2_tools_basic) | `@function_tool` 基础用法 |
@@ -38,6 +39,7 @@ uv run python cases/<case_dir>/main.py
 | 14 | [case14_retry_fallback](cases/case14_retry_fallback) | 重试与降级策略 |
 | 15 | [case15_evaluation](cases/case15_evaluation) | 评估与测试（纯逻辑单测 + Agent 行为测试分层） |
 | 16 | [case16_interfaces](cases/case16_interfaces) | 产品化界面：CLI 与 Web（复用同一个 Agent，界面只是壳子） |
+| 17 | [case17_coding_agent](cases/case17_coding_agent) | 编程 Agent：Claude Code / Cursor 的最小复刻（沙盒内自主写码-运行-修复） |
 
 ## 学习建议
 

@@ -6,3 +6,5 @@ __pycache__/
 *.db-shm
 *.db-wal
 .idea/
+cases/case17_coding_agent/workspace/*
+!cases/case17_coding_agent/workspace/.gitkeep
