@@ -40,6 +40,8 @@ uv run python cases/<case_dir>/main.py
 | 15 | [case15_evaluation](cases/case15_evaluation) | 评估与测试（纯逻辑单测 + Agent 行为测试分层） |
 | 16 | [case16_interfaces](cases/case16_interfaces) | 产品化界面：CLI 与 Web（复用同一个 Agent，界面只是壳子） |
 | 17 | [case17_coding_agent](cases/case17_coding_agent) | 编程 Agent：Claude Code / Cursor 的最小复刻（沙盒内自主写码-运行-修复） |
+| 18 | [case18_data_transform](cases/case18_data_transform) | 批量数据转换管道：杂乱工单 -> 严格 schema（部分成功/失败隔离/汇总报告） |
+| 19 | [case19_agent_skills](cases/case19_agent_skills) | Agent Skills：领域知识写成 SKILL.md 按需加载（Claude Code Skill 机制复刻） |
 
 ## 学习建议
 
